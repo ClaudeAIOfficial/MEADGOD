@@ -1,5 +1,5 @@
 const CONFIG = {
-  name: "Homi",
+  name: "Ozzy",
   voice: true,
   apiEndpoint: "", // Later: set to your own /api/chat endpoint for a real AI brain.
 };

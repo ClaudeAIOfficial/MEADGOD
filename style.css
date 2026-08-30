@@ -57,9 +57,10 @@ h1 span { color: var(--green); }
 .character-button {
   border: 0; background: transparent; padding: 0; width: min(100%, 610px); height: min(100%, 700px);
   display: grid; place-items: center; transform-style: preserve-3d; will-change: transform; transition: transform .12s ease-out, filter .25s ease;
-  filter: drop-shadow(0 28px 24px rgba(32, 52, 38, .10));
+  filter: drop-shadow(0 28px 24px rgba(32, 52, 38, .16));
+  position: relative; z-index: 3;
 }
-.character-button img { width: auto; height: 100%; max-width: 100%; object-fit: contain; user-select: none; mix-blend-mode: multiply; }
+.character-button img { display: block; width: auto; height: 100%; max-width: 100%; object-fit: contain; user-select: none; pointer-events: none; }
 .character-button:hover { filter: drop-shadow(0 34px 28px rgba(32,52,38,.14)); }
 .character-button.boop { animation: boop .52s cubic-bezier(.2,.8,.3,1); }
 @keyframes boop { 30% { transform: translateY(-18px) scale(1.035) rotate(-1.2deg); } 65% { transform: translateY(4px) scale(.985) rotate(1deg); } }

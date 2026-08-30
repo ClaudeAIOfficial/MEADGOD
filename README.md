@@ -1,4 +1,4 @@
-# Homi interactive character site
+# Ozzy interactive character site
 
 A no-build static website centered around the character image.
 
@@ -12,14 +12,14 @@ This folder can be dropped directly onto Vercel, Netlify, GitHub Pages, or any s
 Open `script.js` and edit:
 
 ```js
-name: "Homi"
+name: "Ozzy"
 ```
 
 ## Connect a real AI brain later
 Set `apiEndpoint` in `script.js` to your own server endpoint. The frontend sends:
 
 ```json
-{ "message": "user message", "character": "Homi" }
+{ "message": "user message", "character": "Ozzy" }
 ```
 
 Your endpoint should return:

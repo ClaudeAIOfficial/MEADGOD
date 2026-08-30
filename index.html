@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#f6f7f2" />
-  <title>Homi — your little house friend</title>
-  <meta name="description" content="Talk to Homi, a tiny interactive house friend." />
+  <title>Ozzy — your little house friend</title>
+  <meta name="description" content="Talk to Ozzy, a tiny interactive house friend." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -15,9 +15,9 @@
   <div class="noise" aria-hidden="true"></div>
   <main class="app-shell">
     <nav class="topbar">
-      <a class="brand" href="#" aria-label="Homi home">
+      <a class="brand" href="#" aria-label="Ozzy home">
         <span class="brand-mark">⌂</span>
-        <span id="brandName">Homi</span>
+        <span id="brandName">Ozzy</span>
       </a>
       <div class="nav-actions">
         <button class="pill ghost" id="soundToggle" type="button" aria-pressed="true">Sound on</button>
@@ -31,15 +31,15 @@
 
       <div class="copy-block">
         <div class="eyebrow"><span class="status-dot"></span> ONLINE & CURIOUS</div>
-        <h1>Say hello to <span id="heroName">Homi.</span></h1>
+        <h1>Say hello to <span id="heroName">Ozzy.</span></h1>
         <p>A tiny house with a big personality. Talk, click, tease, ask questions, or just hang out.</p>
       </div>
 
       <div class="character-zone" id="characterZone">
         <div class="speech-bubble" id="speechBubble" role="status" aria-live="polite">hey. i was waiting for you.</div>
         <div class="character-shadow" aria-hidden="true"></div>
-        <button class="character-button" id="characterButton" type="button" aria-label="Interact with Homi">
-          <img src="./assets/character.png" alt="A cute white house character with a green roof, glasses and a plaid shirt" draggable="false" />
+        <button class="character-button" id="characterButton" type="button" aria-label="Interact with Ozzy">
+          <img src="./assets/ozzy.png" alt="A cute white house character with a green roof, glasses and a plaid shirt" draggable="false" />
         </button>
         <div class="click-hint" id="clickHint">click me</div>
       </div>
@@ -50,7 +50,7 @@
           <button class="icon-btn" id="micButton" type="button" aria-label="Talk with microphone" title="Talk with microphone">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3Zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21H8v2h8v-2h-3v-3.08A7 7 0 0 0 19 11h-2Z"/></svg>
           </button>
-          <input id="chatInput" autocomplete="off" maxlength="280" placeholder="Talk to Homi..." aria-label="Message Homi" />
+          <input id="chatInput" autocomplete="off" maxlength="280" placeholder="Talk to Ozzy..." aria-label="Message Ozzy" />
           <button class="send-btn" type="submit" aria-label="Send message">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3.4 20.4 17.45-7.48a1 1 0 0 0 0-1.84L3.4 3.6a.95.95 0 0 0-1.32 1.03l1.1 5.46 9.04 1.91-9.04 1.91-1.1 5.46A.95.95 0 0 0 3.4 20.4Z"/></svg>
           </button>
@@ -66,7 +66,7 @@
 
   <dialog class="about-card" id="aboutDialog">
     <button class="dialog-close" id="closeAbout" aria-label="Close">×</button>
-    <span class="mini-label">ABOUT HOMI</span>
+    <span class="mini-label">ABOUT OZZY</span>
     <h2>Part mascot.<br>Part tiny roommate.</h2>
     <p>This page is built so the character stays at the center of the experience. He reacts to clicks, follows your cursor, speaks, listens, and can later be connected to a real AI backend.</p>
     <div class="about-grid">
